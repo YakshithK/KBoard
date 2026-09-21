@@ -1,0 +1,20 @@
+Item,Reference,Quantity,Part,Description,Footprint,Notes
+1,U1,1,RP2040,Raspberry Pi RP2040 microcontroller,Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm,
+2,U2,1,W25Q16JVSS,16Mbit SPI flash memory,Package_SO:SOIC-8_5.3x5.3mm_P1.27mm,
+3,U3,1,XC6206 3.3V,3.3V low-dropout linear regulator,Package_TO_SOT_SMD:SOT-23-3,
+4,U4,1,USBLC6-2,USB ESD protection array,Package_TO_SOT_SMD:SOT-23-6,
+5,Y1,1,12MHz crystal,SMD crystal for RP2040 clock (12MHz),Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm,
+6,J2,1,USB4105-GF-A,USB Type-C 16-pin mid-mount receptacle,USB4105-GF-A:GCT_USB4105-GF-A,
+7,F1,1,Polyfuse 500mA,Resettable fuse 0402,Fuse:Fuse_0402_1005Metric,
+8,"R1, R2",2,Resistor 1k,0402 SMD resistor,Capacitor_SMD:C_0402_1005Metric,
+9,"R3, R4",2,Resistor 27R,0402 SMD resistor (USB series termination),Capacitor_SMD:C_0402_1005Metric,
+10,"R5, R6",2,Resistor 5.1k,0402 SMD resistor (USB-C CC pull-down),Capacitor_SMD:C_0402_1005Metric,
+11,C1-C10,10,Capacitor 0.1uF,0402 MLCC decoupling capacitor,Capacitor_SMD:C_0402_1005Metric,
+12,C11-C12,2,Capacitor 15pF,0402 MLCC crystal load capacitor,Capacitor_SMD:C_0402_1005Metric,
+13,C13-C16,4,Capacitor 1uF,0603 MLCC capacitor,Capacitor_SMD:C_0603_1608Metric,
+14,C17,1,Capacitor 10uF,0603 MLCC bulk capacitor,Capacitor_SMD:C_0603_1608Metric,
+15,D1-D84,84,1N4148W,Fast switching diode for key matrix,Diode_SMD:D_SOD-123,
+16,SW1-SW84,84,MX-style mechanical switch,Hot-swap MX compatible switch,PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u,Any MX compatible switch works
+17,SW85,1,Tactile switch,SMD tact switch (boot/reset),Button_Switch_SMD:SW_SPST_CK_RS282G05A3,
+18,KC1-KC84,84,1u keycaps,Cherry MX profile keycaps,,
+19,PCB1,1,KBoard PCB,2-layer KiCad PCB (306 x 125 mm),,"Order from JLCPCB, PCBWay, or similar"
