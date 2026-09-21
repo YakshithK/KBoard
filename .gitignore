@@ -1,0 +1,5 @@
+firmware/qmk-python/
+firmware/pip-cache/
+firmware/build/
+**/*.lck
+

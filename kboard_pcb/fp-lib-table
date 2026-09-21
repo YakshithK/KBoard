@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "itsybitsy-rp2040") (type "KiCad") (uri "C:/Users/yaksh/KiCad_Custom/Adafruit-RP2040-KiCAD-main/itsybitsy-rp2040.pretty") (options "") (descr ""))
+)
