@@ -1,6 +1,6 @@
 # KBoard
 
-An 84-key custom mechanical keyboard built from scratch around the RP2040. No dev module: the RP2040, flash, regulator, USB-C, crystal, and support circuitry are all on the board, running QMK.
+An 84-key custom mechanical keyboard built from scratch around the RP2040. No dev module: the RP2040, flash, regulator, USB-C, crystal, and support circuitry are all on the board. Uses Cherry MX Browns.
 
 ![KBoard PCB top render](assets/pcb-top.png)
 
@@ -15,35 +15,13 @@ An 84-key custom mechanical keyboard built from scratch around the RP2040. No de
 
 ## Technical Details
 
-The board is a 2-layer design (306 x 125 mm) with an RP2040 (QFN-56), W25Q16 flash, XC6206 LDO, USBLC6-2 ESD protection, a 12MHz crystal, 500mA polyfuse, and a mid-mount USB-C receptacle. One extra tact switch (SW85) is broken out for boot/reset.
+The PCB is a basic 2-layer pcb (306 x 125 mm) using an RP2040 SoC with a USB-C connector. There's also a switch broken on the bottom for boot/reset.
 
 ![Schematic](assets/schematic.svg)
 
 ## Bill of Materials
 
-Full machine-readable list: [`BOM.csv`](BOM.csv)
-
-| Item | Reference | Qty | Part | Notes |
-| --- | --- | --- | --- | --- |
-| 1 | U1 | 1 | RP2040 | QFN-56 microcontroller |
-| 2 | U2 | 1 | W25Q16JVSS | 16Mbit SPI flash, SOIC-8 |
-| 3 | U3 | 1 | XC6206 3.3V | LDO regulator, SOT-23-3 |
-| 4 | U4 | 1 | USBLC6-2 | USB ESD protection, SOT-23-6 |
-| 5 | Y1 | 1 | 12MHz crystal | 3225 SMD |
-| 6 | J2 | 1 | USB4105-GF-A | USB-C mid-mount receptacle |
-| 7 | F1 | 1 | Polyfuse 500mA | 0402 resettable fuse |
-| 8 | R1-R2 | 2 | Resistor 1k | 0402 |
-| 9 | R3-R4 | 2 | Resistor 27R | 0402, USB series termination |
-| 10 | R5-R6 | 2 | Resistor 5.1k | 0402, USB-C CC pull-down |
-| 11 | C1-C10 | 10 | Capacitor 0.1uF | 0402 decoupling |
-| 12 | C11-C12 | 2 | Capacitor 15pF | 0402 crystal load |
-| 13 | C13-C16 | 4 | Capacitor 1uF | 0603 |
-| 14 | C17 | 1 | Capacitor 10uF | 0603 bulk |
-| 15 | D1-D84 | 84 | 1N4148W | SOD-123 matrix diodes |
-| 16 | SW1-SW84 | 84 | MX-style mechanical switch | Hot-swap, any MX compatible switch |
-| 17 | SW85 | 1 | Tactile switch | Boot/reset |
-| 18 | KC1-KC84 | 84 | 1u keycaps | Cherry MX profile |
-| 19 | PCB1 | 1 | KBoard PCB | 2-layer, order from JLCPCB/PCBWay |
+Please see: [`BOM.csv`](BOM.csv)
 
 ## Repo Index
 
