@@ -4,7 +4,7 @@ U2 - W25Q16JVSSIQ 16Mbit SPI flash SOIC-8 (Winbond),1,$6.08,https://www.lcsc.com
 U3 - XC6206P332MR-G 3.3V LDO SOT-23-3 (Torex),1,$0.72,https://www.lcsc.com/product-detail/Voltage-Regulators-Linear-Low-Drop-Out-LDO-Regulators_Torex-Semicon-XC6206P332MR-G_C5446.html,LCSC C5446 - MOQ 5
 U4 - USBLC6-2SC6 USB ESD protection SOT-23-6 (ST),1,$0.89,https://www.lcsc.com/product-detail/C7519.html,LCSC C7519
 Y1 - 12MHz crystal 3225 12pF load (LIMING),1,$0.49,https://www.lcsc.com/product-detail/Crystals_Suzhou-Liming-Elec-3225-12-00-12-10-10-A_C518158.html,LCSC C518158 - 5pcs
-J2 - USB4105-GF-A USB-C receptacle (GCT) - ONLY DigiKey line,1,$0.80,https://www.digikey.ca/en/products/detail/gct/USB4105-GF-A/11198441,2073-USB4105-GF-ACT-ND cut tape - 5pcs
+J2 - TYPE-C 16PIN 2MD(073) USB-C receptacle (SHOU HAN),1,$0.35,https://www.lcsc.com/product-detail/USB-Connectors_SHOU-HAN-TYPE-C-16PIN-2MD-073_C2765186.html,"LCSC C2765186 - pad-identical to GCT USB4105 footprint verified ±4.32mm shell legs"
 F1 - 0402L050SLKR PTC fuse 6V 500mA 0402 (Littelfuse),1,$1.37,https://www.lcsc.com/product-detail/C206938.html,LCSC C206938 - MOQ 5
 "R1, R2 - Resistor 1k 0402 (Yageo)",2,$0.29,https://www.lcsc.com/product-detail/C105637.html,LCSC C105637 - 100pcs
 "R3, R4 - Resistor 27R 0402 (Yageo 1%)",2,$0.10,https://www.lcsc.com/product-detail/C138021.html,LCSC C138021 - in-stock alt for backordered JR part
@@ -21,4 +21,4 @@ TX AP - Plate mount stabilizer kit 1.6mm TKL,1,$12.30,https://unikeyboards.com/p
 PETG filament 1.75mm 1kg,1,$15.50,https://www.aliexpress.com/,Case halves + printed keycaps
 M2 inserts screws kit,1,$1.03,https://www.aliexpress.com/,AliExpress 500pc kit
 PCB1 - KBoard PCB 2-layer 306x125mm,1,$30.24,https://jlcpcb.com/,"5 pcs + aluminium plate - uploaded production/KBoard-gerbers.zip"
-Total Price (USD):,,$126.40,,Excludes shipping duties tools and case hardware subtotals
+Total Price (USD):,,$125.95,,Excludes shipping duties tools and case hardware subtotals
